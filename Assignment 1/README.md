@@ -1,2 +1,0 @@
-# C-Assignment-1
-
