@@ -107,6 +107,3 @@ All the college assignments on `C Programming` that I have done on the course of
 >Enter the temperature in Centigrade:43.6
 >
 >Temperature in Fahrenheit:110.479996
->Enter the temperature in Centigrade:43.6
-
->Temperature in Fahrenheit:110.479996
