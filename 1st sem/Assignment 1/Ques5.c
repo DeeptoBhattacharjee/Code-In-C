@@ -10,7 +10,7 @@ void main()
     dia=2*rad;
     circum=2*PI*rad;
     area=PI*rad*rad;
-    printf("Circumference of Circle:%d",circum);
-    printf("Diameter of Circle:%d",dia);
-    printf("Area of Circle:%d",area);
+    printf("Circumference of Circle:%d\n",circum);
+    printf("Diameter of Circle:%d\n",dia);
+    printf("Area of Circle:%d\n",area);
 }

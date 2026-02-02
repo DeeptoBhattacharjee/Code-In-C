@@ -4,11 +4,8 @@ void main()
 {
     int amount;
 
-    printf("=== [INPUT] ===");
     printf("\nEnter the amount : ");
     scanf("%d", &amount);
-
-    printf("\n=== [OUTPUT] ===");
 
     int calculate = amount / 100;
     printf("\n100 x %d = %d", calculate, calculate * 100);

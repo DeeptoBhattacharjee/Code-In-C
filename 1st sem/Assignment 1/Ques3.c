@@ -9,7 +9,7 @@ void main()
     rem_days=days%365;
     mons=rem_days/30;
     days_left=rem_days%30;
-    printf("Years-%d",yrs);
-    printf("Months-%d",mons);
+    printf("Years-%d ",yrs);
+    printf("Months-%d ",mons);
     printf("Days-%d",days_left);
 }

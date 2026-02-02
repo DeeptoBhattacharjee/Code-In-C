@@ -1,4 +1,4 @@
-//Program to swap two user input numbers
+//Program to swap two user input numbers using a third variable
 #include<stdio.h>
 void main()
 {
@@ -10,7 +10,7 @@ void main()
     temp=a;
     a=b;
     b=temp;
-    printf("Swapping.....");
-    printf("C:%d",a);
+    printf("Swapping.....\n");
+    printf("C:%d  ",a);
     printf("D:%d",b);
 }

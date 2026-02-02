@@ -10,10 +10,10 @@ void main()
     pro=a*b;
     quo=a/b;
     rem=a%b;
-    printf("Sum =%d",sum);
-    printf("Difference =%d",diff);
-    printf("Product =%d",pro);
-    printf("Quotient =%d",quo);
+    printf("Sum =%d\n",sum);
+    printf("Difference =%d\n",diff);
+    printf("Product =%d\n",pro);
+    printf("Quotient =%d\n",quo);
     printf("Remainder =%d",rem);
 
 }
