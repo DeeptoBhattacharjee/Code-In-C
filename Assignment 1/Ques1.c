@@ -7,7 +7,7 @@ void main()
     scanf("%d %d",&l,&b);
     p=2*(l+b);
     a=l*b;
-    printf("Perimeter =%d",p);
+    printf("Perimeter =%d\n",p);
     printf("Area =%d",a);
 
 }
