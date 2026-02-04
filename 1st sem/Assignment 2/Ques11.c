@@ -7,7 +7,7 @@ void main()
     scanf("%d %d %d %d %d",&m1,&m2,&m3,&m4,&m5);
 
     per=((m1+m2+m3+m4+m5)/5);
-    printf("%d\n",per);
+    printf("The Percentage Score is:%d\n",per);
 
     if (per >= 60)
     printf("First division");

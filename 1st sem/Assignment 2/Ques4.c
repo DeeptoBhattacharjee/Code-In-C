@@ -13,7 +13,7 @@ void main()
     }
     else
     {
-        printf("The absolute valis is %d",x);
+        printf("The absolute value is %d",x);
     }
              
 }
