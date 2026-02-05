@@ -3,7 +3,7 @@
 void main()
 {
     int n,i,fact;
-    printf("Enter number:");
+    printf("Enter a number:");
     scanf("%d",&n);
 
     fact=1;
@@ -14,5 +14,5 @@ void main()
         fact=fact*i;
         i++;
     }
-    printf("%d! = %d",n,fact);
+    printf("The Factorial :- %d! = %d",n,fact);
 }

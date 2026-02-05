@@ -261,3 +261,109 @@ AUGUST
 Enter the units consumed:180
 Total Bill:176
 ```
+## Assignment 3
+
+`Program 1` Write a program in C to display a number its square and cube from 1 to the number itslef in a tabular format.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques1.c)
+
+`Output`
+```
+Enter a number:4
+Number  Square  Cube
+1       1       1
+2       4       8
+3       9       27
+4       16      64
+```
+
+`Program 2` Write a program in C to display all the odd integers from 1 to a given range(input).
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques2.c)
+
+`Output`
+```
+Enter a positive integer:12
+The odd no. are:-
+1
+3
+5
+7
+9
+11
+```
+
+`Program 3` Write a program in C to input a number and print its table.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques3.c)
+
+`Output`
+```
+Enter a number:6
+6 x 1 = 6
+6 x 2 = 12
+6 x 3 = 18
+6 x 4 = 24
+6 x 5 = 30
+6 x 6 = 36
+6 x 7 = 42
+6 x 8 = 48
+6 x 9 = 54
+6 x 10 = 60
+```
+
+`Program 4` Write a program in C to display the digits of a number from left to right and from right to left pattern.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques3.c)
+
+`Output`
+```
+Enter a number:354
+Right to Left
+4 5 3
+Left to Right
+3 5 4
+```
+
+`Program 5` Write a program in C to calculate the factorial of a number.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques5.c)
+
+`Output`
+```
+Enter a number:6
+The Factorial :- 6! = 720
+```
+
+`Program 6` Write a program in C to calculate the sum of digits of a number(input).
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques6.c)
+
+`Output`
+```
+Enter a number:453
+The sum of digits:12
+```
+
+`Program 7` Write a program in C to find whether a number(input) is a palindrome or not.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques7.c)
+
+`Output`
+```
+Enter a number:343
+343 is a palindrome no.
+
+Enter a number:432
+432 is a not palindrome no.
+```
+
+`Program 8` Write a program in C to convert the digits in string format and dislpay.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques8.c)
+
+`Output`
+```
+Enter a number:4356
+FOUR    THREE   FIVE    SIX
+```

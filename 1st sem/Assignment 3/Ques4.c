@@ -13,15 +13,16 @@ void main()
     {
         d1=n%10;
         s=s*10+d1;
-        printf("%d\n",d1);
+        printf("%d ",d1);
         n=n/10;
     }
+    printf("\n");
     
     printf("Left to Right\n");
     while(s!=0)
     {
         d2=s%10;
-        printf("%d\n",d2);
+        printf("%d ",d2);
         s=s/10;
     }
 }
