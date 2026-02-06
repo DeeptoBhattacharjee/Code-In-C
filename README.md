@@ -293,7 +293,7 @@ The odd no. are:-
 11
 ```
 
-`Program 3` Write a program in C to input a number and print its table.
+`Program 3` Write a program in C to input a number and print its table(using while loop).
 
 `Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques3.c)
 
@@ -325,7 +325,7 @@ Left to Right
 3 5 4
 ```
 
-`Program 5` Write a program in C to calculate the factorial of a number.
+`Program 5` Write a program in C to calculate the factorial of a number(using while loop).
 
 `Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%203/Ques5.c)
 
@@ -366,4 +366,153 @@ Enter a number:432
 ```
 Enter a number:4356
 FOUR    THREE   FIVE    SIX
+```
+
+## Assignment 4
+
+`Program 1` Write a program in C to display first 10 natural numbers.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques1.c)
+
+`Output`
+```
+The first 10 natural no.:-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+`Program 2` Write a program in C to calculate the sum of first 10 natural numbers.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques2.c)
+
+`Output`
+```
+Sum of first 10 naturals:55
+```
+
+`Program 3` Write a program in C to find the sum of natural numbers till nth term.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques3.c)
+
+`Output`
+```
+Enter the value of n:12
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Sum:78
+```
+
+`Program 4` Write a program in C to calculate the sum and average of the first 10 natural numbers.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques4.c)
+
+`Output`
+```
+Sum:55
+Average:5
+```
+
+`Program 5` Write a program in C to display the mathematical table of a given number(using for loop).
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques5.c)
+
+`Output`
+```
+Enter a number:13
+13 x 1 = 13
+13 x 2 = 26
+13 x 3 = 39
+13 x 4 = 52
+13 x 5 = 65
+13 x 6 = 78
+13 x 7 = 91
+13 x 8 = 104
+13 x 9 = 117
+13 x 10 = 130
+```
+
+`Program 6` Write a program in C to find the factorial of a number(using for loop).
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques6.c)
+
+`Output`
+```
+Enter a number:7
+7!=5040
+```
+
+`Program 7` Write a program in C to display the factors of a number.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques7.c)
+
+`Output`
+```
+Enter a number:36
+The factors of 36 are:-
+1
+2
+3
+4
+6
+9
+12
+18
+36
+```
+
+`Program 8` Write a program in C to check whether a given number is prime or not.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques8.c)
+
+`Output`
+```
+Enter a number:15
+15 is a not prime no.
+
+Enter a number:13
+13 is a prime no.
+```
+
+`Program 9` Write a program in C to check whether a number is a perfect number or not.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques9.c)
+
+`Output`
+```
+Enter a number:28
+28 is a perfect number
+
+Enter a number:18
+18 is not a perfect number
+```
+
+`Program 10` Write a program in C to check whether a three digit number is armstrong or not.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%204/Ques10.c)
+
+`Output`
+```
+Enter a three digit number:153
+153 is an armstrong number
+
+Enter a three digit number:120
+120 is not an armstrong number
 ```

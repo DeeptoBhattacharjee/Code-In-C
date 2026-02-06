@@ -4,7 +4,7 @@
 int main()
 {
     int i;
-    printf("The first 10 natural no.:-");
+    printf("The first 10 natural no.:-\n");
     
     for(i=1;i<=10;i++)
     {
