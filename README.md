@@ -7,11 +7,11 @@ All the college assignments on `C Programming` that I have done on the course of
 
 |S.no.|Assignment|Description|
 |---|---|---|
-|1.|Assignment-1|[View](https://github.com/DeeptoBhattacharjee/C-Assignments#assignment-1)|
-|2.|Assignment-2|[View](https://github.com/DeeptoBhattacharjee/C-Assignments#assignment-2)|
-|3.|Assignment-3|[View](https://github.com/DeeptoBhattacharjee/C-Assignments#assignment-3)|
-|4.|Assignment-4|[View](https://github.com/DeeptoBhattacharjee/C-Assignments#assignment-4)|
-|5.|Assignment-5|[View](https://github.com/DeeptoBhattacharjee/C-Assignments#assignment-5)|
+|1.|Assignment-1|[View](##assignment-1)|
+|2.|Assignment-2|[View](##assignment-2)|
+|3.|Assignment-3|[View](##assignment-3)|
+|5.|Assignment-5|[View](##assignment-5)|
+|4.|Assignment-4|[View](##assignment-4)|
 
 ## Assignment 1
 
