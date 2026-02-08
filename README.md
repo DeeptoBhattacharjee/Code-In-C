@@ -10,8 +10,8 @@ All the college assignments on `C Programming` that I have done on the course of
 |1.|Assignment-1|[View](#assignment-1)|
 |2.|Assignment-2|[View](#assignment-2)|
 |3.|Assignment-3|[View](#assignment-3)|
-|5.|Assignment-5|[View](#assignment-5)|
 |4.|Assignment-4|[View](#assignment-4)|
+|5.|Assignment-5|[View](#assignment-5)|
 
 ## Assignment 1
 
@@ -528,7 +528,7 @@ Enter a three digit number:120
 120 is not an armstrong number
 ```
 
-## Assignement 5
+## Assignment 5
 
 `Program 1` Write a program in C to print the elements of an array in normal order then in reverse order.
 
