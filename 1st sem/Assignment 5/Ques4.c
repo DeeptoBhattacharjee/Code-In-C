@@ -1,4 +1,4 @@
-//Program to find the segragate the odd elements and even elements in different Arrays
+//Program to segragate the odd elements and even elements in different Arrays
 #include <stdio.h>
 
 int main()

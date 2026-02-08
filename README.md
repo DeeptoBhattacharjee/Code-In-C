@@ -516,3 +516,170 @@ Enter a three digit number:153
 Enter a three digit number:120
 120 is not an armstrong number
 ```
+
+## Assignement 5
+
+`Program 1` Write a program in C to print the elements of an array in normal order then in reverse order.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%205/Ques1.c)
+
+`Output`
+```
+Enter the number of elements:6
+Enter the elements in the Array:
+Enter Element 0:2
+Enter Element 1:3
+Enter Element 2:4
+Enter Element 3:5
+Enter Element 4:6
+Enter Element 5:7
+
+The elements in normal order:
+2 3 4 5 6 7 
+The elements in reverse order:
+7 6 5 4 3 2 
+```
+
+`Program 2` Write a program in C to calculate the sum and the average of elements in an Array.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%205/Ques2.c)
+
+`Output`
+```
+Enter the number of elements:5
+Enter the elements in the Array:
+Enter Element 0:23
+Enter Element 1:34
+Enter Element 2:45
+Enter Element 3:56
+Enter Element 4:67
+
+Sum:225
+Average:45
+```
+
+`Program 3` Write a program in C to find the maximum and minimum element in the Array.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%205/Ques3.c)
+
+`Output`
+```
+Enter the numbers of elements:3
+Enter the elements in the Array:
+Enter Element 0:43
+Enter Element 1:76
+Enter Element 2:23
+
+Maximum element:76
+Minimum element:23
+```
+
+`Program 4` Write a program in C to segragate the odd elements and even elements in different Arrays.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%205/Ques4.c)
+
+`Output`
+```
+Enter the number of elements:6
+Enter the elements in the Array:
+Enter Element 0:23
+Enter Element 1:34
+Enter Element 2:45
+Enter Element 3:56
+Enter Element 4:67
+Enter Element 5:78
+
+The even elements in the array:
+34 56 78 
+The odd elements in the array:
+23 45 67 
+```
+
+`Program 5` Write a program in C to arrange the elements of an Array in descending order using Bubble sort.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%205/Ques5.c)
+
+`Output`
+```
+Enter the number of elements:6 
+Enter the elements in the Array:
+Enter Element 0:32  
+Enter Element 1:67
+Enter Element 2:12
+Enter Element 3:21 
+Enter Element 4:45
+Enter Element 5:78
+
+Elements after sorting...
+78 67 45 32 21 12 
+```
+
+`Program 6` Write a program in C to insert an element to an unsorted Array to a desired index.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%205/Ques6.c)
+
+`Output`
+```
+Enter the number of elements in the Array:5
+Enter the elements in the Array:
+Enter Element 0:3
+Enter Element 1:2
+Enter Element 2:5
+Enter Element 3:7
+Enter Element 4:4
+
+Array before insertion...
+3 2 5 7 4 
+
+Enter the index for insertion:3
+Enter the value to insert:10
+
+Array after insertion...
+3 2 5 10 7 4 
+```
+
+`Program 7` Write a program in C to delete an element from an unsorted Array from a desired index.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%205/Ques7.c)
+
+`Output`
+```
+Enter the number of elements in the Array:5
+Enter the elements in the Array:
+Enter Element 0:3
+Enter Element 1:6
+Enter Element 2:2
+Enter Element 3:7
+Enter Element 4:5
+
+Array before deletion...
+3 6 2 7 5 
+
+Enter the index for deletion:2
+
+Array after deletion...
+3 6 7 5 
+```
+
+`Program 8` Write a program in C to display the elements of a 3x3 matrix using 2D Array.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%205/Ques8.c)
+
+`Output`
+```
+Enter the elements of the 3x3 matrix:
+Enter element[0][0]:3
+Enter element[0][1]:4
+Enter element[0][2]:5
+Enter element[1][0]:2
+Enter element[1][1]:3
+Enter element[1][2]:4
+Enter element[2][0]:1
+Enter element[2][1]:2
+Enter element[2][2]:3
+
+The matrix:-
+3 4 5 
+2 3 4 
+1 2 3 
+```
