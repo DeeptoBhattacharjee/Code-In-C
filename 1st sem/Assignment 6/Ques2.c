@@ -6,7 +6,7 @@ int Table(int);
 int main()
 {
     int num;
-    printf("Ente a number:");
+    printf("Enter a number:");
     scanf("%d",&num);
 
     Table(num);

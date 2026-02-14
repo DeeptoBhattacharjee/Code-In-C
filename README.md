@@ -12,6 +12,7 @@ All the college assignments on `C Programming` that I have done on the course of
 |3.|Assignment-3|[View](#assignment-3)|
 |4.|Assignment-4|[View](#assignment-4)|
 |5.|Assignment-5|[View](#assignment-5)|
+|6.|Assignment-6|[View](#assignment-6)|
 
 ## Assignment 1
 
@@ -693,4 +694,67 @@ The matrix:-
 3 4 5 
 2 3 4 
 1 2 3 
+```
+
+## Assignment 6
+
+`Program 1` Write a program in C to write a function in C to check if a number is Prime or not.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%206/Ques1.c)
+
+`Output`
+```
+Enter a number:23
+23 is a Prime number
+
+Enter a number:45
+45 is a not Prime number
+```
+
+`Program 2` Write a program in C to write a function in C to Print the Multiplication Table of a given number.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%206/Ques2.c)
+
+`Output`
+```
+Enter a number:5
+The Multiplication Table for 5:-
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+```
+
+`Program 3` Write a program in C to write a function in C to calculate the factorial of a given number.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%206/Ques3.c)
+
+`Output`
+```
+Enter a number:5
+The Factorial of the number 5 is 120
+```
+
+`Program 4` Write a program in C to write a function in C to find the maximum and minimum element in the Array.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%206/Ques4.c)
+
+`Output`
+```
+Enter the number of elements in the Array:-6
+Enter the 1 element:2
+Enter the 2 element:3
+Enter the 3 element:4
+Enter the 4 element:5
+Enter the 5 element:6
+Enter the 6 element:7
+
+The maximum element in the Array is 7
+The minimum element in the Array is 2
 ```
