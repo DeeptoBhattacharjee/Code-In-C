@@ -758,3 +758,32 @@ Enter the 6 element:7
 The maximum element in the Array is 7
 The minimum element in the Array is 2
 ```
+
+`Program 5` Write a program in C to write a function in C to sort the elements of the Array in descending order.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%206/Ques5.c)
+
+`Output`
+```
+Enter the number of elements in the Array:-6
+Enter the 1 element:2
+Enter the 2 element:1
+Enter the 3 element:5
+Enter the 4 element:3
+Enter the 5 element:6
+Enter the 6 element:8
+
+Elements after sorting...
+8 6 5 3 2 1 
+```
+
+`Program 6` Write a program in C to display the fibonacci series till nth term using Recursion.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%206/Ques7.c)
+
+`Output`
+```
+Enter the nth term of the Fibonacci Series:8
+The Fibonacci Series :-
+0 1 1 2 3 5 8 13 
+```
