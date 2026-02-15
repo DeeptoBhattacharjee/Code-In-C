@@ -777,7 +777,17 @@ Elements after sorting...
 8 6 5 3 2 1 
 ```
 
-`Program 6` Write a program in C to display the fibonacci series till nth term using Recursion.
+`Program 6` Write a program in C to calculate the factorial of a number using Recursion.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%206/Ques6.c)
+
+`Output`
+```
+Enter a number:6
+The factorial of 6 is 720 
+```
+
+`Program 7` Write a program in C to display the fibonacci series till nth term using Recursion.
 
 `Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%206/Ques7.c)
 
