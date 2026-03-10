@@ -13,6 +13,7 @@ All the college assignments on `C Programming` that I have done on the course of
 |4.|Assignment-4|[View](#assignment-4)|
 |5.|Assignment-5|[View](#assignment-5)|
 |6.|Assignment-6|[View](#assignment-6)|
+|7.|Assignment-7|[View](#assignment-7)|
 
 ## Assignment 1
 
@@ -796,4 +797,73 @@ The factorial of 6 is 720
 Enter the nth term of the Fibonacci Series:8
 The Fibonacci Series :-
 0 1 1 2 3 5 8 13 
+```
+
+## Assignment 7
+
+`Program 1` Write a program in C to find the address of a variable using Pointers.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%207/Ques1.c)
+
+`Output`
+```
+Enter the value of a:4
+a = 4
+&a = 00000000005FFE74
+*p = 4
+p = 00000000005FFE74 
+```
+
+`Program 2` Write a program in C to add two variables using Pointers.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%207/Ques2.c)
+
+`Output`
+```
+Enter the value of a:5
+Enter the value of b:6
+The sum = 11
+```
+
+`Program 3` Write a program in C to add elements in an array using Pointers.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%207/Ques3.c)
+
+`Output`
+```
+Enter the number of elements in Array:5
+Enter element 1:2
+Enter element 2:3
+Enter element 3:4
+Enter element 4:5
+Enter element 5:6
+The elements of the Array are:-
+2 3 4 5 6 
+```
+
+`Program 4` Write a program in C to swap two numbers via third variable using Pointers.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%207/Ques4.c)
+
+`Output`
+```
+Enter the value of a:4
+Enter the value of b:2
+a=4 b=2
+After swapping....
+a=2 b=4
+```
+
+`Program 5` Write a program in C to find the address of the sum and average of two numbers using Pointers.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%207/Ques5.c)
+
+`Output`
+```
+Enter the value of a:5
+Enter the value of b:6
+The sum of the numbers is 11
+The average of the numbers is 5.500000
+The address of sum is 00000000005FFE24
+The address of avg is 00000000005FFE24
 ```
