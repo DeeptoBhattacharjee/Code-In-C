@@ -1,4 +1,4 @@
-//Program to make a function to calculate the length of a string with library function
+//Program to make a function to calculate the length of a string without using library function
 #include <stdio.h>
 
 int mystrlen(char word[])

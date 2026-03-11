@@ -14,6 +14,7 @@ All the college assignments on `C Programming` that I have done on the course of
 |5.|Assignment-5|[View](#assignment-5)|
 |6.|Assignment-6|[View](#assignment-6)|
 |7.|Assignment-7|[View](#assignment-7)|
+|8.|Assignment-8|[View](#assignment-8)|
 
 ## Assignment 1
 
@@ -866,4 +867,88 @@ The sum of the numbers is 11
 The average of the numbers is 5.500000
 The address of sum is 00000000005FFE24
 The address of avg is 00000000005FFE24
+```
+
+## Assignment 8
+
+`Program 1` Write a program in C to find the number of Vowels and Consonants in an user input sentence.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%208/Ques1.c)
+
+`Output`
+```
+Enter a line:My name is Deepto
+The Number of Vowels in the word are 6
+The Number of Consonants in the word are 8
+```
+
+`Program 2` Write a program in C to reverse a string without using library function.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%208/Ques2.c)
+
+`Output`
+```
+Enter a word:Hello world
+The Original String:-
+Hello world
+The Reversed String:-
+dlrow olleH
+```
+
+`Program 3` Write a program in C to make a function to calculate the length of a string without using library function.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%208/Ques3.c)
+
+`Output`
+```
+Enter a word:hello world   
+The length is 11
+```
+
+`Program 4` Write a program in C to make a function to slice a string from m to n index.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%208/Ques4.c)
+
+`Output`
+```
+Enter a string:Hello World
+Enter the first index:1
+Enter the second index:8
+Original string:Hello World
+Sliced string:ello Wor
+```
+
+`Program 5` Write a program in C to copy a string to another string without using library function.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%208/Ques5.c)
+
+`Output`
+```
+Enter a string:Copying the string :D 
+The Source String:Copying the string :D 
+The Copied String:Copying the string :D
+```
+
+`Program 6` Write a program in C to create an encryption and decryption function to a message.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%208/Ques6.c)
+
+`Output`
+```
+Enter a message:My password is password
+The encrypted message:Nz!qbttxpse!jt!qbttxpse
+Would you like see the decrypted message?[Yes/No]:Yes
+The decrypted message:My password is password
+```
+
+`Program 7` Write a program in C to check if a string is palindrome or not.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%208/Ques7.c)
+
+`Output`
+```
+Enter a string:MADAM 
+MADAM is a Palindrome string
+Enter a string:MOTHER
+MOTHER is not a Palindrome string
 ```

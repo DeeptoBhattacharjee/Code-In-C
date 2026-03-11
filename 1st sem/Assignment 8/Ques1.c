@@ -13,10 +13,14 @@ int main()
     for(int i=0;i<strlen(word);i++)
     {
         char ch=tolower(word[i]);
-        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
-        count_vowel++;
-        else
-        count_consonant++;
+        if(ch>='a' && ch<='z')
+        {
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+            count_vowel++;
+            else 
+            count_consonant++;
+        }
+       
     }
 
     printf("The Number of Vowels in the word are %d\n",count_vowel);
