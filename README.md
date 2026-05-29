@@ -16,6 +16,12 @@ All the college assignments on `C Programming` that I have done on the course of
 |7.|Assignment-7|[View](#assignment-7)|
 |8.|Assignment-8|[View](#assignment-8)|
 
+# Semester 2
+
+|S.no.|Task|Description|
+|---|---|---|
+|1.|Stack|[View](#stack-operations)|
+
 ## Assignment 1
 
 `Program 1` Write a C program to compute the perimeter and area of a rectangle taking length and breadth as user input.
@@ -952,3 +958,18 @@ MADAM is a Palindrome string
 Enter a string:MOTHER
 MOTHER is not a Palindrome string
 ```
+
+## Stack Operations
+
+A stack is a linear data structure that follows the `Last In, First Out (LIFO)` principle, meaning the last element added is the first one to be removed.
+
+- The stack can be represented as a structure containing a fixed-size array and a top pointer, which is initialized to -1 to indicate an empty stack.
+- Using an array-based stack is memory-efficient but has a fixed size, whereas a linked-list-based stack allows dynamic memory allocation and can grow or shrink at runtime.
+- The maximum size of an array-based stack can be defined according to requirements.
+
+|Operations|Description|
+|---|---|
+|Push|Inserts an element at the top of the stack.|
+|Pop|Removes the top most element of the stack.|
+|Peek|Returns the topmost element of the stack.|
+|Display|Displays the all elements of the stack|
