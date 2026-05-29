@@ -18,9 +18,16 @@ All the college assignments on `C Programming` that I have done on the course of
 
 # Semester 2
 
+## Data Structures
 |S.no.|Task|Description|
 |---|---|---|
 |1.|Stack|[View](#stack-operations)|
+
+## CPU Scheduling
+|S.no.|Task|Description|
+|---|---|---|
+|1.|Stack|[View](#fcfs-scheduling)|
+
 
 ## Assignment 1
 
@@ -959,6 +966,7 @@ MADAM is a Palindrome string
 Enter a string:MOTHER
 MOTHER is not a Palindrome string
 ```
+
 ## Stack Operations
 
 A stack is a linear data structure that follows the `Last In, First Out (LIFO)` principle, meaning the last element added is the first one to be removed.
@@ -1021,3 +1029,35 @@ Enter your choice:
 5
 `Exiting...`
 ```
+
+## FCFS Scheduling
+
+FCFS stands for `'first-come-first-serve'`. As the name suggests, the request which comes first will be processed first and the request that comes after will be served after. FCFS algorithm is a non-preemptive scheduling algorithm that means if there is one process processing in the CPU, then all the other processes will be in a waiting queue and the processes have to wait until the CPU finishes the execution of the current process entirely.
+
+`Waiting Time`
+
+The waiting time is defined as the difference between the turnaround time and burst time of a process.
+
+`Turn-Around Time`
+
+The Turn around time is defined as the time taken by a process to complete after the arrival time. Or simply we can say that turnaround time is the difference between the arrival and completion time of a process.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/CPU%20Scheduling/FCFS_Simulate.c)
+
+`Output`
+```
+Enter the number of processes:4
+Enter the burst time of processes:
+Process 1:2
+Process 2:4
+Process 3:5
+Process 4:7
+Process Burst Time      Waiting Time    Turn-Around time
+P[1]    2               0               1
+P[2]    4               2               6
+P[3]    5               6               11
+P[4]    7               11              18
+Average Waiting Time:4
+Average Turn-Around Time:9
+```
+
