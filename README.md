@@ -26,7 +26,7 @@ All the college assignments on `C Programming` that I have done on the course of
 ## CPU Scheduling
 |S.no.|Task|Description|
 |---|---|---|
-|1.|Stack|[View](#fcfs-scheduling)|
+|1.|FCFS CPU Scheduling|[View](#fcfs-scheduling)|
 
 
 ## Assignment 1
