@@ -951,6 +951,7 @@ The decrypted message:My password is password
 
 `Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/1st%20sem/Assignment%208/Ques7.c)
 
+
 `Output`
 ```
 Enter a string:MADAM 
@@ -958,7 +959,6 @@ MADAM is a Palindrome string
 Enter a string:MOTHER
 MOTHER is not a Palindrome string
 ```
-
 ## Stack Operations
 
 A stack is a linear data structure that follows the `Last In, First Out (LIFO)` principle, meaning the last element added is the first one to be removed.
@@ -973,3 +973,51 @@ A stack is a linear data structure that follows the `Last In, First Out (LIFO)` 
 |Pop|Removes the top most element of the stack.|
 |Peek|Returns the topmost element of the stack.|
 |Display|Displays the all elements of the stack|
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Data%20Structures/Stack.c)
+
+`Output`
+```
+Enter your choice:
+1.Push
+2.Pop
+3.Peek
+4.Display
+5.Exit
+1
+Enter value to push:23
+`Pushed 23 to stack`
+Enter your choice:
+1.Push
+2.Pop
+3.Peek
+4.Display
+5.Exit
+1
+Enter value to push:34
+`Pushed 34 to stack`
+Enter your choice:
+1.Push
+2.Pop
+3.Peek
+4.Display
+5.Exit
+3
+`Top element is 34`
+Enter your choice:
+1.Push
+2.Pop
+3.Peek
+4.Display
+5.Exit
+4
+`Stack elements are: 34 23` 
+Enter your choice:
+1.Push
+2.Pop
+3.Peek
+4.Display
+5.Exit
+5
+`Exiting...`
+```
