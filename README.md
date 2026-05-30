@@ -1034,6 +1034,7 @@ Enter your choice:
 
 FCFS stands for `'first-come-first-serve'`. As the name suggests, the request which comes first will be processed first and the request that comes after will be served after. FCFS algorithm is a non-preemptive scheduling algorithm that means if there is one process processing in the CPU, then all the other processes will be in a waiting queue and the processes have to wait until the CPU finishes the execution of the current process entirely.
 
+
 `Waiting Time`
 
 The waiting time is defined as the difference between the turnaround time and burst time of a process.
@@ -1042,22 +1043,30 @@ The waiting time is defined as the difference between the turnaround time and bu
 
 The Turn around time is defined as the time taken by a process to complete after the arrival time. Or simply we can say that turnaround time is the difference between the arrival and completion time of a process.
 
+`Completion Time`
+
+Completion Time is defined as the time required by a process to get executed.
+>Completion Time= (Turn Around Time - Waiting Time)
+
 `Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/CPU%20Scheduling/FCFS_Simulate.c)
 
 `Output`
 ```
 Enter the number of processes:4
-Enter the burst time of processes:
-Process 1:2
-Process 2:4
-Process 3:5
-Process 4:7
-Process Burst Time      Waiting Time    Turn-Around time
-P[1]    2               0               1
-P[2]    4               2               6
-P[3]    5               6               11
-P[4]    7               11              18
-Average Waiting Time:4
-Average Turn-Around Time:9
+Enter the arrival time of process 1:2
+Enter the arrival time of process 2:4
+Enter the arrival time of process 3:5
+Enter the arrival time of process 4:1
+Enter the burst time of process 1:4
+Enter the burst time of process 2:6
+Enter the burst time of process 3:5
+Enter the burst time of process 4:8
+Process Arrival Time    Burst Time      Completion Time Turnaround Time Waiting Time
+4       1               8               9               8               0
+1       2               4               13              11              7
+2       4               6               19              15              9
+3       5               5               24              19              14
+Average Waiting Time: 7.50
+Average Turnaround Time: 13.25
 ```
 
