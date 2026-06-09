@@ -21,7 +21,7 @@ int main()
     {
         if(arr[i]==key)
         {
-            printf("Element found at index %d\n",i);
+            printf("Element found at position %d\n",i+1);
             break;
         }
     }

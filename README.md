@@ -22,12 +22,26 @@ All the college assignments on `C Programming` that I have done on the course of
 |S.no.|Task|Description|
 |---|---|---|
 |1.|Stack|[View](#stack-operations)|
+|2.|Queue|[View](#linear-searching)|
+
+## Searching Techniques
+
+|S.no.|Task|Description|
+|---|---|---|
+|1.|Linear Searching|[View](#linear-searching)|
+|2.|Binary Searching|[View](#binary-searching)|
+
+## Sorting Techniques
+
+|S.no.|Task|Description|
+|---|---|---|
+|1.|Bubble Sorting|[View](#bubble-sorting)|
+|2.|Insertion Sorting|[View](#insertion-sorting)|
 
 ## CPU Scheduling
 |S.no.|Task|Description|
 |---|---|---|
 |1.|FCFS CPU Scheduling|[View](#fcfs-scheduling)|
-
 
 ## Assignment 1
 
@@ -975,6 +989,8 @@ A stack is a linear data structure that follows the `Last In, First Out (LIFO)` 
 - Using an array-based stack is memory-efficient but has a fixed size, whereas a linked-list-based stack allows dynamic memory allocation and can grow or shrink at runtime.
 - The maximum size of an array-based stack can be defined according to requirements.
 
+![Stack](<Pngs/Stack.png>)
+
 |Operations|Description|
 |---|---|
 |Push|Inserts an element at the top of the stack.|
@@ -994,7 +1010,7 @@ Enter your choice:
 5.Exit
 1
 Enter value to push:23
-`Pushed 23 to stack`
+Pushed 23 to stack
 Enter your choice:
 1.Push
 2.Pop
@@ -1003,7 +1019,7 @@ Enter your choice:
 5.Exit
 1
 Enter value to push:34
-`Pushed 34 to stack`
+Pushed 34 to stack
 Enter your choice:
 1.Push
 2.Pop
@@ -1011,7 +1027,7 @@ Enter your choice:
 4.Display
 5.Exit
 3
-`Top element is 34`
+Top element is 34
 Enter your choice:
 1.Push
 2.Pop
@@ -1019,7 +1035,7 @@ Enter your choice:
 4.Display
 5.Exit
 4
-`Stack elements are: 34 23` 
+Stack elements are: 34 23`
 Enter your choice:
 1.Push
 2.Pop
@@ -1027,7 +1043,185 @@ Enter your choice:
 4.Display
 5.Exit
 5
-`Exiting...`
+Exiting...
+```
+## Queue Operations
+
+A queue is a linear data structure that follows the First In First Out (FIFO) order of insertion and deletion. It means that the element that is inserted first will be the first one to be removed and the element that is inserted last will be removed at last.
+
+- Elements are inserted at the rear (enqueue) and removed from the front (dequeue).
+- Common operations are enqueue, dequeue, peek/front, isEmpty, and isFull.
+- Queues can be implemented using arrays or linked lists in C.
+- Used in real-life scenarios like printer queues, CPU task scheduling, and data buffers.
+
+![Queue](<Pngs/Queue.png>)
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Data%20Structures/Queue.c)
+
+`Output`
+```
+Enter your choice:
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+1
+Enter the value to be enqueued:32
+32 enqueued to queue
+Enter your choice:
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+1
+Enter the value to be enqueued:45
+45 enqueued to queue
+Enter your choice:
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+3
+Queue elemensts are:32 45 
+Enter your choice:
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+2
+32 dequeued from queue
+Enter your choice:
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+3
+Queue elemensts are:45 
+Enter your choice:
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+4
+Exiting...
+```
+
+## Linear Searching
+
+Linear Search is a sequential searching algorithm in C that is used to find an element in a list. Linear Search compares each element of the list with the key till the element is found or we reach the end of the list.
+
+- Start traversing from the start of the dataset.
+- Compare the current element with the key (element to be searched).
+- If the element is equal to the key, return index.
+- Else, increment the index and repeat the step 2 and 3.
+- If we reach the end of the list without finding the element equal to the key, return some value to represent that the element is not found.
+
+
+`Example`
+```
+Input: arr = {10, 50, 30, 70, 80, 60, 20, 90, 40}, key: 30
+Output: Key Found at Index: 2
+Explanation: Start from index 0, compare each element with the key (30). When index 2 is reached, the element (30) matches the target value.
+```
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Searching%20Techniques/LinearSearch.c)
+
+`Output`
+```
+Enter the no. of elements:5
+Enter the elements in the Array:
+Enter the Element 1:3
+Enter the Element 2:6
+Enter the Element 3:1
+Enter the Element 4:2
+Enter the Element 5:8
+Enter the element to be searched:1
+Element found at position 3
+```
+
+## Binary Searching
+
+Binary Search is a searching algorithm that operates on a sorted or monotonic search space, repeatedly dividing it into halves to find a target value or optimal answer in logarithmic time O(log N).
+
+- The data structure must be sorted.
+- Access to any element of the data structure should take constant time.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Searching%20Techniques/BinarySearch.c)
+
+`Output`
+```
+Enter the no. of elements:6
+Enter the elements in the Array[In sorted order]:
+Enter the Element 1:2
+Enter the Element 2:4
+Enter the Element 3:5
+Enter the Element 4:7
+Enter the Element 5:8
+Enter the Element 6:10
+Enter the element to be searched:5
+Element found at position 3
+```
+
+## Bubble Sorting
+
+Bubble Sort is a comparison based simple sorting algorithm that works by comparing the adjacent elements and swapping them if the elements are not in the correct order. It is an in-place and stable sorting algorithm that can sort items in data structures such as arrays and linked lists.
+
+Bubble-sort is an in-place and stable sorting algorithm (i.e. the relative order of the elements remains the same after sorting) that can sort items in data structures such as arrays and linked lists. It performs n-1 passes of the array/linked list and in each pass the largest unsorted element is moved to its correct position.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Sorting%20Techniques/BubbleSort.c)
+
+`Note`:To display the descending pattern of the program, just alter the followinf part of the source code -
+
+```
+-->if(arr[j]>arr[j+1])
+For Ascending format
+-->if(arr[j]<arr[j+1])
+For Descending format
+```
+
+`Output`
+```
+Enter the no. of elements:5
+Enter the elements in the Array:
+Enter Element 1:4
+Enter Element 2:2
+Enter Element 3:6
+Enter Element 4:3
+Enter Element 5:1
+Elements after ascending sorting...
+1 2 3 4 6 
+```
+
+## Insertion Sorting
+
+Insertion Sort is a simple comparison-based sorting algorithm that builds the final sorted list one element at a time.
+
+- It divides the list into sorted and unsorted part. Initially, the first element is already considered sorted, while the rest of the list is considered unsorted.
+- The algorithm then iterates through each element in the unsorted part, picking one element at a time, and inserts it into its correct position in the sorted part.
+- It is easy to implement and works well for small datasets.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Sorting%20Techniques/InsertionSort.c)
+
+`Note`:To display the descending pattern of the program, just alter the followinf part of the source code -
+
+```
+-->while(j>=0 && arr[j]>key)
+For Ascending format
+-->while(j>=0 && arr[j]<key)
+For Descending format
+```
+
+`Output`
+```
+Enter the no. of elements:5
+Enter the elements in the Array:
+Enter the Element 1:3
+Enter the Element 2:7
+Enter the Element 3:1
+Enter the Element 4:4
+Enter the Element 5:9
+Elements after ascending sorting:
+1 3 4 7 9
 ```
 
 ## FCFS Scheduling

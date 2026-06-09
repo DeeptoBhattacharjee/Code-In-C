@@ -22,10 +22,10 @@ int main()
 
     while(low<=high)
     {
-        mid=(low+high)/2;
+        mid=low+(high-low)/2;
         if(arr[mid]==key)
         {
-            printf("Element found at index %d\n",mid);
+            printf("Element found at position %d\n",mid+1);
             break;
         }
         else if(arr[mid]>key)
