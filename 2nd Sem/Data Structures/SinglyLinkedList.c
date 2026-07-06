@@ -107,7 +107,7 @@ void search(struct Node *head,int key)
     printf("Element not found\n");
 }
 
-void display(struct Node *head)
+void traverse(struct Node *head)
 {
     if (head == NULL)
     {
@@ -136,7 +136,7 @@ int main()
         printf("3. Delete at Beginning\n");
         printf("4. Delete at End\n");
         printf("5. Search in List\n");
-        printf("6. Display List\n");
+        printf("6. Traverse List\n");
         printf("7. Exit\n");
         printf("Enter Your Choice!:");
         scanf("%d",&ch);
@@ -169,7 +169,7 @@ int main()
             break;
 
             case 6:
-            display(head);
+            traverse(head);
             break;
             
             case 7:

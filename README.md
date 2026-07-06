@@ -23,6 +23,8 @@ All the college assignments on `C Programming` that I have done on the course of
 |---|---|---|
 |1.|Stack|[View](#stack-operations)|
 |2.|Queue|[View](#linear-searching)|
+|3.|Singly Linked List|[View](#singly-linked-list)|
+|4.|Doubly Linked List|[View](#doubly-linked-list)|
 
 ## Searching Techniques
 
@@ -37,6 +39,7 @@ All the college assignments on `C Programming` that I have done on the course of
 |---|---|---|
 |1.|Bubble Sorting|[View](#bubble-sorting)|
 |2.|Insertion Sorting|[View](#insertion-sorting)|
+|2.|Selection Sorting|[View](#selection-sorting)|
 
 ## CPU Scheduling
 |S.no.|Task|Description|
@@ -1106,6 +1109,177 @@ Enter your choice:
 Exiting...
 ```
 
+## Singly Linked List
+
+A ``Singly Linked List`` is a fundamental data structure, it consists of nodes where each node contains a data field and a reference to the next node in the linked list. The next of the last node is null, indicating the end of the list. Linked Lists support efficient insertion and deletion operations.
+
+![SinglyLinkedList](<Pngs/singly-linked-list.webp>)
+
+### Common Operation in Linked List
+
+A linked list supports several operations. Here are the most common ones:
+
+- Traversal : Traversing singly linked list
+- Insertion : At the beginning, At the end
+- Deletion : From beginning, From end 
+- Searching : Find whether a given key exists in the list
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Data%20Structures/SinglyLinkedList.c)
+
+`Output`
+```
+----- Singly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse List
+7. Exit
+Enter Your Choice!:1
+Enter the value to insert at Start:34
+
+----- Singly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse List
+7. Exit
+Enter Your Choice!:2
+Enter the value to insert at End:54
+
+----- Singly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse List
+7. Exit
+Enter Your Choice!:6
+Singly Linked List:34->54->NULL
+
+----- Singly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse List
+7. Exit
+Enter Your Choice!:4
+
+----- Singly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse List
+7. Exit
+Enter Your Choice!:6
+Singly Linked List:34->NULL
+
+----- Singly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse List
+7. Exit
+Enter Your Choice!:7
+Exit program!!
+```
+## Doubly Linked List
+
+A ``Doubly Linked List`` is a more complex data structure than a singly linked list, but it offers several advantages. The main advantage of a doubly linked list is that it allows for efficient traversal of the list in both directions. This is because each node in the list contains a pointer to the previous node and a pointer to the next node. This allows for quick and easy insertion and deletion of nodes from the list, as well as efficient traversal of the list in both directions.
+
+![DoublyLinkedList](<Pngs/doubly-linked-list.webp>)
+
+### Common Operation in Linked List
+
+A linked list supports several operations. Here are the most common ones:
+
+- Traversal : Traversing singly linked list
+- Insertion : At the beginning, At the end
+- Deletion : From beginning, From end 
+- Searching : Find whether a given key exists in the list
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Data%20Structures/DoublyLinkedList.c)
+
+`Output`
+```
+----- Doubly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse in List
+7. Exit
+Enter Your Choice!:1
+Enter the value to insert at Start:34
+
+----- Doubly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse in List
+7. Exit
+Enter Your Choice!:1
+Enter the value to insert at Start:45
+
+----- Doubly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse in List
+7. Exit
+Enter Your Choice!:2
+Enter the value to insert at End:54
+
+----- Doubly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse in List
+7. Exit
+Enter Your Choice!:6
+Doubly Linked List:45<->34<->54<->NULL
+
+----- Doubly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse in List
+7. Exit
+Enter Your Choice!:5
+Enter the element to search for:34
+Element found at position:2
+
+----- Doubly Linked List Menu -----
+1. Insert at Beginning
+2. Insert at End
+3. Delete at Beginning
+4. Delete at End
+5. Search in List
+6. Traverse in List
+7. Exit
+Enter Your Choice!:7
+Exit program!!
+```
+
 ## Linear Searching
 
 Linear Search is a sequential searching algorithm in C that is used to find an element in a list. Linear Search compares each element of the list with the key till the element is found or we reach the end of the list.
@@ -1170,7 +1344,7 @@ Bubble-sort is an in-place and stable sorting algorithm (i.e. the relative order
 
 `Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Sorting%20Techniques/BubbleSort.c)
 
-`Note`:To display the descending pattern of the program, just alter the followinf part of the source code -
+`Note`:To display the descending pattern of the program, just alter the following part of the source code -
 
 ```
 -->if(arr[j]>arr[j+1])
@@ -1202,7 +1376,7 @@ Insertion Sort is a simple comparison-based sorting algorithm that builds the fi
 
 `Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Sorting%20Techniques/InsertionSort.c)
 
-`Note`:To display the descending pattern of the program, just alter the followinf part of the source code -
+`Note`:To display the descending pattern of the program, just alter the following part of the source code -
 
 ```
 -->while(j>=0 && arr[j]>key)
@@ -1222,6 +1396,38 @@ Enter the Element 4:4
 Enter the Element 5:9
 Elements after ascending sorting:
 1 3 4 7 9
+```
+## Selection Sorting
+
+Selection Sort is a comparison-based sorting algorithm. It sorts by repeatedly selecting the smallest (or largest) element from the unsorted portion and swapping it with the first unsorted element.
+
+- Find the smallest element and swap it with the first element. This way we get the smallest element at its correct position.
+- Then find the smallest among remaining elements (or second smallest) and swap it with the second element.
+- We keep doing this until we get all elements moved to correct position.
+
+`Code` [Source Code](https://github.com/DeeptoBhattacharjee/C-Assignments/blob/main/2nd%20Sem/Sorting%20Techniques/SelectionSort.c)
+
+`Note`:To display the descending pattern of the program, just alter the following part of the source code -
+
+```
+-->if(arr[j]<arr[min])
+For Ascending format
+-->if(arr[j]>arr[min])
+For Descending format
+```
+
+`Output`
+```
+Enter the no. of elements:6
+Enter the elements in the Array:
+Enter Element 1:13
+Enter Element 2:11
+Enter Element 3:9
+Enter Element 4:15
+Enter Element 5:7
+Enter Element 6:17
+Elements after ascending sorting:
+7 9 11 13 15 17
 ```
 
 ## FCFS Scheduling
